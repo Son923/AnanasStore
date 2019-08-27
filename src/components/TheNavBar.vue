@@ -8,11 +8,11 @@
           <img src="@/assets/Logo_Ananas_Header.svg" alt="">
         </a>
         <div class="navbar-nav">
-          <b-nav-item class="nav-item nav-link active" to="/Blank">SẢN PHẨM</b-nav-item>
-          <b-nav-item class="nav-item nav-link active" to="/Grid">NAM</b-nav-item>
-          <b-nav-item class="nav-item nav-link active" to="/Blank4">NỮ</b-nav-item>
-          <b-nav-item class="nav-item nav-link active" to="/List">SALE OFF</b-nav-item>
-          <b-nav-item class="nav-item nav-link active" to="/Master_Detail">DISCOVER YOU</b-nav-item>
+          <b-nav-item class="item nav-item nav-link active" to="/Blank">SẢN PHẨM</b-nav-item>
+          <b-nav-item class="item nav-item nav-link active" to="/Grid">NAM</b-nav-item>
+          <b-nav-item class="item nav-item nav-link active" to="/Blank4">NỮ</b-nav-item>
+          <b-nav-item class="item nav-item nav-link active" to="/List">SALE OFF</b-nav-item>
+          <b-nav-item class="item nav-item nav-link active" to="/Master_Detail">DISCOVER YOU</b-nav-item>
         </div>
         <div class="search">
           <div class="search-box">
@@ -74,6 +74,8 @@ export default {
     width: 0px;
 }
 
-.navbar-nav b
+.navbar-nav .item {
+  font-size: 23px;
+}
 
 </style>
