@@ -26,7 +26,7 @@ html {
 }
 
 body {
-  margin-bottom: 160px !important; /* Height of the footer */
+  margin-bottom: 300px !important; /* Height of the footer */
   padding: 0;
 }
 
@@ -34,7 +34,7 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 160px; /* Set the fixed height of the footer here */
+  height: 300px; /* Set the fixed height of the footer here */
 }
 
 /* Override Bootstrap Styling */

@@ -8,11 +8,17 @@
           <img src="@/assets/Logo_Ananas_Header.svg" alt="">
         </a>
         <div class="navbar-nav">
-          <b-nav-item class="item nav-item nav-link active" to="/Blank">SẢN PHẨM</b-nav-item>
+          <b-nav-item id="test" class="item nav-item nav-link active" to="/Blank">SẢN PHẨM</b-nav-item>
+          <b-nav-item class="line"></b-nav-item>
           <b-nav-item class="item nav-item nav-link active" to="/Grid">NAM</b-nav-item>
+          <b-nav-item class="line"></b-nav-item>
           <b-nav-item class="item nav-item nav-link active" to="/Blank4">NỮ</b-nav-item>
+          <b-nav-item class="line"></b-nav-item>
           <b-nav-item class="item nav-item nav-link active" to="/List">SALE OFF</b-nav-item>
-          <b-nav-item class="item nav-item nav-link active" to="/Master_Detail">DISCOVER YOU</b-nav-item>
+          <b-nav-item class="line"></b-nav-item>
+          <b-nav-item id="discover-you" class="item nav-item nav-link active" to="/Master_Detail">
+            <img src="@/assets/DiscoverYOU.svg" alt="">
+          </b-nav-item>
         </div>
         <div class="search">
           <div class="search-box">
@@ -73,9 +79,22 @@ export default {
     line-height: 40px;
     width: 0px;
 }
-
+.search-txt::placeholder {
+  color: white;
+  opacity: 0.7;
+}
 .navbar-nav .item {
   font-size: 23px;
+  font-weight: 600;
 }
-
+.navbar-nav .line {
+  border: #e3e2e2 1px solid;
+  height: 23px;
+  margin-top: 20px;
+  width: 1px;
+}
+#discover-you {
+  position: relative;
+  bottom: 5px;
+}
 </style>

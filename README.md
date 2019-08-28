@@ -82,6 +82,3 @@ The front-end is served on http://localhost:3000/ and the back-end on http://loc
 
 - Bootstrap CSS - https://getbootstrap.com/
 - Flask - http://flask.pocoo.org/
-
-
-  This project was created using [Microsoft Web Template Studio](https://github.com/Microsoft/WebTemplateStudio).
