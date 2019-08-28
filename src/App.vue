@@ -35,6 +35,9 @@ footer {
   bottom: 0;
   width: 100%;
   height: 300px; /* Set the fixed height of the footer here */
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+
 }
 
 /* Override Bootstrap Styling */

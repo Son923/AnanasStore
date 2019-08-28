@@ -86,6 +86,7 @@ export default {
 .navbar-nav .item {
   font-size: 23px;
   font-weight: 600;
+  color: #F15E2C !important;
 }
 .navbar-nav .line {
   border: #e3e2e2 1px solid;
