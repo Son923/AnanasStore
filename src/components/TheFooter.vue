@@ -83,9 +83,7 @@ export default {
 .footer {
   background-color: #4c4c4c;
   padding: 60px 0 60px 0;
-  margin: 20px 0 0 0;
 }
-
 .title {
   color: #fff;
   margin-bottom: 20px;

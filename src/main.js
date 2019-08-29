@@ -1,12 +1,15 @@
 ﻿import App from "@/App.vue";
-import BootstrapVue from "bootstrap-vue";
 import router from "@/router";
-import Vue from "vue";
-import "bootstrap/dist/css/bootstrap.min.css";
+import BootstrapVue from "bootstrap-vue";
 import "bootstrap-vue/dist/bootstrap-vue.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Vue from "vue";
+import VueCarousel from 'vue-carousel';
+
 
 Vue.config.productionTip = false;
 Vue.use(BootstrapVue);
+Vue.use(VueCarousel);
 
 new Vue({
   router,
