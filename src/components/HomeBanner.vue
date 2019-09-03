@@ -3,7 +3,7 @@
     <div class="text-center header">
       <!-- Carousel usage: https://ssense.github.io/vue-carousel/guide/ -->
       <carousel :perPage="1" :paginationEnabled="false" :autoplay="true" :loop="true">
-        <slide class="wrapper">
+        <slide>
           <img src="@/assets/desktop_home1.jpg" alt="">
         </slide>
         <slide>
@@ -25,7 +25,7 @@ export default {
 
 <style scoped>
 .header {
-  height: 600px;
+  height: 800px;
   background-color: orange; 
 }
 .header img {
