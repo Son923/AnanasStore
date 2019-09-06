@@ -25,8 +25,11 @@ export default {
 
 <style scoped>
 .header {
-  height: 800px;
-  background-color: orange; 
+  /* laptop */
+  height: 600px;
+  /* big */
+  /* height: 800px; */
+  background-color: orange;
 }
 .header img {
   object-fit: cover;
